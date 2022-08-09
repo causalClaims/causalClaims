@@ -1,1 +1,4 @@
-theme: jekyll-theme-cayman
+title: Causal Claims
+description: The 17th International Workshop on Semantic Evaluation
+theme: jekyll-theme-slate
+markdown: GFM

@@ -33,7 +33,9 @@ In this subtask, for a given multi (or single) sentence text snippet and identif
 Visit our [Codalab](https://codalab.lisn.upsaclay.fr/competitions/6284?secret_key=effe6a1c-447e-4407-9085-e2168f92d4ea#learn_the_details-evaluation) website for more instruction and access to the sample dataset.   
   
 ### Sample dataset
-  To use the dataset - you will need to folow the steps given in the provided script. We are only giving reddit post ids along with our annotations. The task participants can use the provided script to obtain the dataset. Please go to this medium post if you have need help with creation on reddit credential needed in the script. Also read about argeparse library as it is needed for the provided script.  
+ To obtain the dataset - you will need to folow the steps given in the provided script on this [Google Drive link](https://drive.google.com/drive/folders/16SI3MlOyOLflVIeYkAUDTKJLuwerZ4Zj?usp=sharing) . We are only giving reddit post ids along with our annotations. The task participants can use the provided script to obtain the dataset. Please go to [this medium post](https://towardsdatascience.com/scraping-reddit-data-1c0af3040768) if you have need help with creation on reddit credential needed in the script. Also read about argeparse library as it is needed for the provided script.  
+ 
+ The dataset provided here is same as the dataset in Codalab page but participants will need to join the competition.  
   
 ### Evaluation 
 We will evaluate submissions on class-wise F1 scores (macro-averaged for leaderboard).

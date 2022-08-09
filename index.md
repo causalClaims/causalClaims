@@ -1,9 +1,9 @@
 ---
 title: Causal Claims   
 ---
-
-Welcome to the [SemEval](https://semeval.github.io/)-2023 task 8 
 ### Causal Medical claim identification and related PICO frame extraction 
+Welcome to the [SemEval](https://semeval.github.io/)-2023 task 8    
+
 ## Motivation 
 Identification and automatic verification of medical claims from unstructured user generated text data is an onerous but essential step for various various decision making process - including but not limited to content moderation, insurance claim identification, identification of novel condition-treatment from scientiific litereture as well as hypothesis generation from clinical notes.  
 

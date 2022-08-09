@@ -27,7 +27,7 @@ In this subtask, for a given multi (or single) sentence text snippet and identif
 
 ![Subtask-2](subtask-2.png)    
 
-## Dataset and cometition details: 
+## Dataset and competition details: 
 We are currently providing a sample dataset and will be releasing the full training data soon. Out dataset is build from Reddit posts and to respect the users privacy we are not releasing the dataset directly. Instead we are providing with Reddit post ids, annotations and a script. Participants can use the script to obtain the related data and merge with the provided annotations. 
 
 

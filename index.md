@@ -1,5 +1,5 @@
 ---
-title: Causal Claims. 
+title: Causal Claims   
 ---
 
 Welcome to the [SemEval](https://semeval.github.io/)-2023 task 8 

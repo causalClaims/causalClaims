@@ -2,7 +2,7 @@
 title: Causal Claims   
 ---
 ### Causal Medical Claims Identification and Related PICO Frame Extraction  
-Welcome to the [SemEval](https://semeval.github.io/)-2023 task 8    
+Welcome to the [SemEval](https://semeval.github.io/)-2023 Task 8    
 
 ## Motivation 
 Identification and automatic verification of medical claims from unstructured user generated text data is an onerous but essential step for various various decision making process - including but not limited to content moderation, insurance claim identification, identification of novel condition-treatment from scientiific litereture as well as hypothesis generation from clinical notes.  
@@ -27,18 +27,28 @@ In this subtask, for a given multi (or single) sentence text snippet and identif
 
 ![Subtask-2](subtask-2.png)    
 
-### Competition page and dataset:  
-Visit our [Codalab](https://codalab.lisn.upsaclay.fr/competitions/6284?secret_key=effe6a1c-447e-4407-9085-e2168f92d4ea#learn_the_details-evaluation) website for more instruction and access to the sample dataset.   
-  
+## Dataset and cometition details: 
+We are currently providing a sample dataset and will be releasing the full training data soon. Out dataset is build from Reddit posts and to respect the users privacy we are not releasing the dataset directly. Instead we are providing with Reddit post ids, annotations and a script. Participants can use the script to obtain the related data and merge with the provided annotations. 
+
+
 ### Sample dataset
- To obtain the dataset - you will need to folow the steps given in the provided script on this [Google Drive link](https://drive.google.com/drive/folders/16SI3MlOyOLflVIeYkAUDTKJLuwerZ4Zj?usp=sharing) . We are only giving reddit post ids along with our annotations. The task participants can use the provided script to obtain the dataset. Please go to [this medium post](https://towardsdatascience.com/scraping-reddit-data-1c0af3040768) if you have need help with creation on reddit credential needed in the script. Also read about argeparse library as it is needed for the provided script.  
+For this task, we are providing reddit post ids, our annotations and a script to obtain the datset from reddit. Please go through following link to obtain the dataset: 
+- [Sample training and test data](https://drive.google.com/drive/folders/1cN20UanW8GmrDo1YkeMP5_AGTZ_QOtlG?usp=sharing) for both the stage 
+- [Python script](https://drive.google.com/file/d/10D5VKvdKcIJvtC47vE7IcQQl_2f9qvG4/view?usp=sharing) to download the actual posts 
+- [Medium article](https://towardsdatascience.com/scraping-reddit-data-1c0af3040768) if you need help with reddit crediational needed in the script   
  
  The dataset provided here is same as the dataset in Codalab page but participants will need to join the competition.  
   
 ### Evaluation 
 We will evaluate submissions on class-wise F1 scores (macro-averaged for leaderboard).
 
-### Important dates for task participants
+### CodaLab task 
+The main task will be hosted on codalab along with evaluation leatherboard. Visit our [Codalab](https://codalab.lisn.upsaclay.fr/competitions/6284?secret_key=effe6a1c-447e-4407-9085-e2168f92d4ea#learn_the_details-evaluation) website for more instruction.  
+
+### Submission 
+We plan to open the submission system in December 2022. 
+
+## Important dates for task participants
 
 - Tasks announced (with sample data available): 15 July 2022
 - Training data ready 1 September 2022

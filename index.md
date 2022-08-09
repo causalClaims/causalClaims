@@ -1,7 +1,7 @@
 ---
 title: Causal Claims   
 ---
-### Causal Medical claim identification and related PICO frame extraction 
+### Causal Medical Claims Identification and Related PICO Frame Extraction  
 Welcome to the [SemEval](https://semeval.github.io/)-2023 task 8    
 
 ## Motivation 

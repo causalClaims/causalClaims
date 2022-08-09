@@ -1,5 +1,5 @@
 ---
-title: SemEval-2023
+title: SemEval-2023 Task 8
 ---
 
 Welcome to the [SemEval](https://semeval.github.io/)-2023 homepage!

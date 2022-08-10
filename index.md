@@ -17,17 +17,16 @@ Our shared task has two sub-tasks. Subtask 1 focuses on the identification of ca
 
 For the provided snippet of text, the first subtask aims to identify the span of text that is either a claim, experince or an expereince_based_claim. In experince, the post communicated something an individual's experience but is not making a claim yet. Whereas in experince_based_claim, the post makes a claim based on an individual's experince. And in Claim category, the post makes  a general claims. 
 
->Following is an example for each cateogry: 
+Following in an example for each category.
+- **Experince**: " I am left with headache after taking drug-B."
+- **Experince_based_claim**: " I am left with headache after taking drug-B and I recently read few posts mentioning the same."
+- **Claim**: " I have seen a lot of litereture saying Drug-A doen't work for Condition-B anymore."
 
-> - Experince: " I am left with headache after taking drug-B."
-> - Experince_based_claim: " I am left with headache after taking drug-B and I recently read few posts mentioning the same."
-> - Claim: " I have seen a lot of litereture saying Drug-A doen't work for Condition-B anymore."
-
-Participants can work on it at sentence level and try to classify sentences in one of the given classes but many times claim (or other class) is just a part of the sentence. But this maybe only a baseline as in many examples only a part of sentence is annotated as one of these category. 
+Participants can work on it at sentence level and try to classify sentences in one of the given classes but many times claim (or other class) is just a part of the sentence. But this maybe only a baseline as in many examples only a part of sentence is annotated as one of these category. Please check the  image below for more clarity.   
 
 ![Subtask-1](subtask-1.png)   
 
-
+----- 
 ### Subtask 2: PIO frame extraction:  
 
 In this subtask, for a given multi (or single) sentence text snippet and identified claim in that snippet, the task is to extract related Population (P), Intervention (I), and Outcome (O) frame. While it is rare, it may be the case that there is more than one claim in any given post. In that case, we want to identify PIO elements for a given claim. This can be framed as a sequence tagging task.  

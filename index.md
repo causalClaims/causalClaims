@@ -15,7 +15,15 @@ Our shared task has two sub-tasks. Subtask 1 focuses on the identification of ca
 
 ### Subtask 1: Causal claim identification:  
 
-For the provided snippet of text, the first subtask aims to identify the span of text that is claim, question, or experience. It is sequence tagging task, i.e., a span of text can be someone's experience as well as a claim. Participants can work on it at sentence level try to classify sentences in one of the given classes but many times claim (or other class) is just a part of the sentence.  
+For the provided snippet of text, the first subtask aims to identify the span of text that is either a claim, experince or an expereince_based_claim. In experince, the post communicated something an individual's experience but is not making a claim yet. Whereas in experince_based_claim, the post makes a claim based on an individual's experince. And in Claim category, the post makes  a general claims. 
+
+>Following is an example for each cateogry: 
+
+> - Experince: " I am left with headache after taking drug-B."
+> - Experince_based_claim: " I am left with headache after taking drug-B and I recently read few posts mentioning the same."
+> - Claim: " I have seen a lot of litereture saying Drug-A doen't work for Condition-B anymore."
+
+Participants can work on it at sentence level and try to classify sentences in one of the given classes but many times claim (or other class) is just a part of the sentence. But this maybe only a baseline as in many examples only a part of sentence is annotated as one of these category. 
 
 ![Subtask-1](subtask-1.png)   
 

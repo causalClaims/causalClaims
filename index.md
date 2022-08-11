@@ -1,26 +1,27 @@
 ---
 title: Causal Claims   
 ---
-### Causal Medical Claims Identification and Related PICO Frame Extraction  
+### Causal Medical Claims Identification and Related PIO Frame Extraction  
 Welcome to the [SemEval](https://semeval.github.io/)-2023 Task 8    
 
 ## Motivation 
-Identification and automatic verification of medical claims from unstructured user generated text data is an onerous but essential step for various various decision making process - including but not limited to content moderation, insurance claim identification, identification of novel condition-treatment from scientiific litereture as well as hypothesis generation from clinical notes.  
+Identification and automatic verification of medical claims from unstructured user-generated text data is an onerous but essential step for various decision-making processes. Some day-to-day tasks that can benefit from automatic claim identification are content moderation, insurance claim identification, and hypothesis generation from clinical notes. 
 
-Towards building this capability, we propose following shared subtasks. 
+Towards building this capability, we propose the following shared subtasks. 
 
 ## Task description:  
 
-Our shared task has two sub-tasks. Subtask 1 focuses on the identification of causal claims in a provided multi (or single) sentence text snippet and subtask 2 focuses on the extraction of the PIO frame related to identified causal claim in the provided text snippet. More details on each subtask are provided below. 
+SemEval-2023 task08 consists of two two sub-tasks. Subtask 1 focuses on the identification of causal claims in a provided multi (or single) sentence text snippet and subtask 2 focuses on the extraction of the PIO frame related to identified causal claim in the provided text snippet. More details on each subtask are provided below.  
+
 
 ### Subtask 1: Causal claim identification:  
 
 For the provided snippet of text, the first subtask aims to identify the span of text that is either a claim, experince or an expereince_based_claim. In experince, the post communicated something an individual's experience but is not making a claim yet. Whereas in experince_based_claim, the post makes a claim based on an individual's experince. And in Claim category, the post makes  a general claims. 
 
-Following in an example for each category.
+Following in an example for each category. 
 - **Experince**: " I am left with headache after taking drug-B."
 - **Experince_based_claim**: " I am left with headache after taking drug-B and I recently read few posts mentioning the same."
-- **Claim**: " I have seen a lot of literature reporting that Drug-A doesn't work for Condition-B."
+- **Claim**: " I have read literature reporting that Drug-A doesn't work for Condition-B."
 
 Participants can work on it at sentence level and try to classify sentences in one of the given classes but many times claim (or other class) is just a part of the sentence. But this maybe only a baseline as in many examples only a part of sentence is annotated as one of these category. Please check the  image below for more clarity.   
 
@@ -70,7 +71,8 @@ All deadlines are 23:59 UTC-12 (["anywhere on Earth"](https://en.wikipedia.org/w
 
 
 ### Organizers
-Contact us on [Google group](causal_claims@googlegroups.com)  
+Contact us on:   
+[CausalClaim Google group](causal_claims@googlegroups.com)  
 
 
 <!---

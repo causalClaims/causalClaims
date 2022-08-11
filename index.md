@@ -16,7 +16,7 @@ SemEval-2023 task08 consists of two two sub-tasks. Subtask 1 focuses on the iden
 
 ### Subtask 1: Causal claim identification:  
 
-For the provided snippet of text, the first subtask aims to identify the span of text that is either a claim, experince or an expereince_based_claim. In experince, the post communicated something an individual's experience but is not making a claim yet. Whereas in experince_based_claim, the post makes a claim based on an individual's experince. And in Claim category, the post makes  a general claims. 
+For the provided snippet of text, the first subtask aims to identify the span of text that is either a claim, experince or an expereince_based_claim. In experince, the post communicated something an individual's experience but is not making a claim yet. Whereas in experince_based_claim, the post makes a claim based on an individual's experince. And in Claim category, the post makes a general claims. 
 
 Following in an example for each category. 
 - **Experince**: " I am left with headache after taking drug-B."

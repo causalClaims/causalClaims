@@ -61,7 +61,7 @@ We plan to open the submission system in December 2022.
 - Tasks announced (with sample data available): 15 July 2022
 - Training data ready 1 September 2022
 - Evaluation start 10 January 2023
-- Evaluation end by 31 January 2023 (latest date; task organizers may choose an earlier date)
+- Evaluation end by 31 January 2023 (we are still discussing on a possible earlier date)
 - Paper submission due February 2023
 - Notification to authors March 2023
 - Camera ready due April 2023

@@ -1,8 +1,9 @@
 ---
 title: Causal Claims   
 ---
-### Causal Medical Claims Identification and Related PIO Frame Extraction  
-Welcome to the [SemEval](https://semeval.github.io/)-2023 Task 8    
+### Causal Claims Identification and PIO Frame Extraction  
+The 17th International Workshop on Semantic Evaluation
+
 
 ## Motivation 
 Identification and automatic verification of medical claims from unstructured user-generated text data is an onerous but essential step for various decision-making processes. Some day-to-day tasks that can benefit from automatic claim identification are content moderation, insurance claim identification, and hypothesis generation from clinical notes. 
@@ -72,7 +73,9 @@ All deadlines are 23:59 UTC-12 (["anywhere on Earth"](https://en.wikipedia.org/w
 
 ### Organizers
 Contact us on:   
-[CausalClaim Google group](causal_claims@googlegroups.com)  
+[CausalClaims Google group](causal_claims@googlegroups.com)  
+Email: 
+
 
 
 <!---

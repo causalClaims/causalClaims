@@ -60,7 +60,6 @@ We plan to open the submission system in December 2022.
 
 ## Important dates for task participants
 
-- Tasks announced (with sample data available): 15 July 2022
 - Training data ready 1 September 2022
 - Evaluation start 10 January 2023 (we are deciding on a possible earlier date)
 - Evaluation end by 31 January 2023 

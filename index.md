@@ -52,7 +52,8 @@ For this task, we are providing reddit post ids, our annotations and a script to
 We will evaluate submissions on class-wise F1 scores (macro-averaged for leaderboard).
 
 ### CodaLab task 
-The main task will be hosted on codalab along with evaluation leatherboard. Visit our [Codalab](https://codalab.lisn.upsaclay.fr/competitions/6284?secret_key=effe6a1c-447e-4407-9085-e2168f92d4ea#learn_the_details-evaluation) website for more instruction.  
+The main task will be hosted on codalab along with evaluation leatherboard.  
+Visit our [Codalab](https://codalab.lisn.upsaclay.fr/competitions/6284?secret_key=effe6a1c-447e-4407-9085-e2168f92d4ea#learn_the_details-evaluation) website for detailed instruction.  
 
 ### Submission 
 We plan to open the submission system in December 2022. 

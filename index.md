@@ -12,7 +12,7 @@ Towards building this capability, we propose the following shared subtasks.
 
 ## Task description:  
 
-SemEval-2023 task08 consists of two two sub-tasks. Subtask 1 focuses on the identification of causal claims in a provided multi (or single) sentence text snippet and subtask 2 focuses on the extraction of the PIO frame related to identified causal claim in the provided text snippet. More details on each subtask are provided below.  
+SemEval-2023 task 8 consists of two two sub-tasks. Subtask 1 focuses on the identification of causal claims in a provided multi (or single) sentence text snippet and subtask 2 focuses on the extraction of the PIO frame related to identified causal claim in the provided text snippet. More details on each subtask are provided below.  
 
 
 ### Subtask 1: Causal claim identification:  
@@ -62,8 +62,8 @@ We plan to open the submission system in December 2022.
 
 - Tasks announced (with sample data available): 15 July 2022
 - Training data ready 1 September 2022
-- Evaluation start 10 January 2023
-- Evaluation end by 31 January 2023 (we are still discussing on a possible earlier date)
+- Evaluation start 10 January 2023 (we are deciding on a possible earlier date)
+- Evaluation end by 31 January 2023 
 - Paper submission due February 2023
 - Notification to authors March 2023
 - Camera ready due April 2023

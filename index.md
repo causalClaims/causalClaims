@@ -83,9 +83,9 @@ All deadlines are 23:59 UTC-12 (["anywhere on Earth"](https://en.wikipedia.org/w
 Contact us on:     
    
 
-- [Google group and mailing list] (causal_claims@googlegroups.com)
+- [Google group and mailing list](causal_claims@googlegroups.com)
 
-- [Email] (semeval23.causalclaims@proton.me)  
+- [Email us](semeval23.causalclaims@proton.me)  
 
 
 

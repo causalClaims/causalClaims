@@ -8,11 +8,11 @@ The 17th International Workshop on Semantic Evaluation
 ## Motivation 
 Identification and automatic verification of medical claims from unstructured user-generated text data is an onerous but essential step for various decision-making processes. Some day-to-day tasks that can benefit from automatic claim identification are content moderation, insurance claim identification, and hypothesis generation from clinical notes. 
 
-Towards building this capability, we propose the following shared subtasks. 
+Towards building this capability and motivating further research in this direction, we propose the following shared subtasks. 
 
 ## Task description:  
 
-SemEval-2023 task 8 consists of two two sub-tasks. Subtask 1 focuses on the identification of causal claims in a provided multi (or single) sentence text snippet and subtask 2 focuses on the extraction of the PIO frame related to identified causal claim in the provided text snippet. More details on each subtask are provided below.  
+SemEval-2023 task 8 consists of two two sub-tasks. Subtask 1 focuses on the identification of causal claims, experience, etc. in a provided multi (or single) sentence text snippet and subtask 2 focuses on the extraction of the PIO frame related to identified causal claim in the provided text snippet. More details on each subtask are provided below.  
 
 
 ### Subtask 1: Causal claim identification:  
@@ -44,7 +44,7 @@ In this subtask, for a given multi (or single) sentence text snippet and identif
 ![Subtask-2](subtask-2.png)    
 
 ## Dataset and competition details: 
-We are currently providing a sample dataset and will be releasing the full training data soon. Our dataset is built from Reddit posts and to respect the user's privacy we are not releasing the dataset directly. Instead, we are only providing Reddit post ids, annotations, and a script. Participants can use the script to obtain the data and merge it with the provided annotations. If users choose to delete their post, the script won't be able to get it. 
+We are currently providing a sample dataset and will be releasing the full training data soon. Our dataset is built from Reddit posts and to respect the users' privacy we are not releasing the dataset directly. Instead, we are only providing Reddit post ids, annotations, and a script. Participants can use the script to obtain the data and merge it with the provided annotations. If users choose to delete their post, the script won't be able to get it. 
 
 
 ### Sample dataset
@@ -99,11 +99,12 @@ some commented files - we can add our new md files and hyperlink here if needed
 - [SemEval-2023 call for task proposals (archival)](cft)
 --->
 
-### Sponsorship
+<!-- ### Sponsorship
 
 SemEval is sponsored by the [SIGLEX](http://alt.qcri.org/siglex/) Special Interest Group on the Lexicon of the Association for Computational Linguistics.
 
-
+ -->
+ 
 __Contact:__ <semevalorganizers@gmail.com>
 <!--- Most questions not answered by the above resources should be directed to organizers of specific [tasks](tasks.html).
 General questions about SemEval organization should be directed to <semevalorganizers@gmail.com>.--->

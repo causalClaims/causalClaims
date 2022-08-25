@@ -43,7 +43,7 @@ In this subtask, for a given multi (or single) sentence text snippet and identif
 
 ![Subtask-2](subtask-2-new.png)    
 
-## Dataset and competition details: 
+## Dataset details: 
 We are currently providing a sample dataset and will be releasing the full training data soon. Our dataset is built from Reddit posts and to respect the users' privacy we are not releasing the dataset directly. Instead, we are only providing Reddit post ids, annotations, and a script. Participants can use the script to obtain the data and merge it with the provided annotations. If users choose to delete their post, the script won't be able to get it. 
 
 
@@ -53,20 +53,20 @@ For this task, we are providing reddit post ids, our annotations and a script to
 - [Python script](https://drive.google.com/file/d/10D5VKvdKcIJvtC47vE7IcQQl_2f9qvG4/view?usp=sharing) to download the actual posts 
 - [Medium article](https://towardsdatascience.com/scraping-reddit-data-1c0af3040768) if you need help with reddit crediational require in the script   
  
- The dataset provided here is same as the dataset in Codalab page but participants will need to join the competition.  
-  
+ The dataset provided here is same as the dataset in Codalab page but participants will need to register to access the competition leatherboard.  
+
+## CodaLab competition details: 
+Visit our [Codalab](https://codalab.lisn.upsaclay.fr/competitions/6948?secret_key=0eb18fd8-c847-4738-956c-f0f19fe3692e) website for detailed instruction. The main task along with evalution leatherboard will be hosted on codaLab. Each participant will need to sign in and register for the task.   
+
 ### Evaluation 
 We will evaluate submissions on class-wise F1 scores (macro-averaged for leaderboard).
 
-### CodaLab task 
-The main task will be hosted on codalab along with the evaluation leatherboard.   
-Visit our [Codalab](https://codalab.lisn.upsaclay.fr/competitions/6948?secret_key=0eb18fd8-c847-4738-956c-f0f19fe3692e) website for detailed instruction.    
-Each participant will need to sign in and register for the task. 
 
-### Submission 
+
+### Submission  
 We plan to open the submission system in December 2022. 
 
-## Important dates for task participants
+### Important dates for task participants
 
 - Training data ready 1 September 2022
 - Evaluation start 10 January 2023 (we are deciding on a possible earlier date)
@@ -74,12 +74,12 @@ We plan to open the submission system in December 2022.
 - Paper submission due February 2023
 - Notification to authors March 2023
 - Camera ready due April 2023
-- SemEval workshop Summer 2023 (co-located with a major NLP conference)
+- SemEval workshop Summer 2023 
 
 All deadlines are 23:59 UTC-12 (["anywhere on Earth"](https://en.wikipedia.org/wiki/Anywhere_on_Earth)).
 
 
-### Organizers
+## Organizers
 Contact us on:     
    
 

@@ -105,7 +105,7 @@ SemEval is sponsored by the [SIGLEX](http://alt.qcri.org/siglex/) Special Intere
 
  -->
  
-__Contact:__ <semevalorganizers@gmail.com>
+<!-- __Contact:__ <semevalorganizers@gmail.com> -->
 <!--- Most questions not answered by the above resources should be directed to organizers of specific [tasks](tasks.html).
 General questions about SemEval organization should be directed to <semevalorganizers@gmail.com>.--->
 

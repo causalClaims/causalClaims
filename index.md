@@ -33,7 +33,7 @@ In experience, the post communicated something an individual's experience but is
 
 Participants can work on it at sentence level and try to classify sentences in one of the given classes but many times claim (or other class) is just a part of the sentence. But this maybe only a baseline as in many examples only a part of sentence is annotated as one of these category. Please check the  image below for more clarity.   
 
-![Subtask-1](subtask-1-new.png)   
+![Subtask-1](subtask-1.png)   
 
 ----- 
 ### Subtask 2: PIO frame extraction:  
@@ -41,7 +41,7 @@ Participants can work on it at sentence level and try to classify sentences in o
 In this subtask, for a given multi (or single) sentence text snippet and identified claim in that snippet, the task is to extract related Population (P), Intervention (I), and Outcome (O) frame. While it is rare, it may be the case that there is more than one claim in any given post. In that case, we want to identify PIO elements for a given claim. This can be framed as a sequence tagging task.  
 
 
-![Subtask-2](subtask-2-new.png)    
+![Subtask-2](subtask-2.png)    
 
 ## Dataset details: 
 We are currently providing a sample dataset and will be releasing the full training data soon. Our dataset is built from Reddit posts and to respect the users' privacy we are not releasing the dataset directly. Instead, we are only providing Reddit post ids, annotations, and a script. Participants can use the script to obtain the data and merge it with the provided annotations. If users choose to delete their post, the script won't be able to get it. 

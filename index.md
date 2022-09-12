@@ -71,7 +71,7 @@ We plan to open the submission system in December 2022.
 - [x] Training data ready and avialble on our [CodaLab task page]()
 - [ ] Evaluation start 10 January 2023 (we are deciding on a possible earlier date)
 - [ ] Evaluation end by 31 January 2023 
-- [ ] Paper submission due February 2023 - each team will submit a system paper for the task 
+- [ ] Paper submission due February 2023 - each team will submit a [system paper](https://semeval.github.io/system-paper-template.html)
 - [ ] Notification to authors March 2023
 - [ ] Camera ready paper due April 2023
 - [ ] SemEval workshop Summer 2023 

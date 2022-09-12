@@ -68,20 +68,23 @@ We plan to open the submission system in December 2022.
 
 ### Important dates for task participants
 
-- Training data ready 1 September 2022
-- Evaluation start 10 January 2023 (we are deciding on a possible earlier date)
-- Evaluation end by 31 January 2023 
-- Paper submission due February 2023
-- Notification to authors March 2023
-- Camera ready due April 2023
-- SemEval workshop Summer 2023 
+- [x] Training data ready and avialble on our [CodaLab task page]()
+- [ ] Evaluation start 10 January 2023 (we are deciding on a possible earlier date)
+- [ ] Evaluation end by 31 January 2023 
+- [ ] Paper submission due February 2023 - each team will submit a system paper for the task 
+- [ ] Notification to authors March 2023
+- [ ] Camera ready paper due April 2023
+- [ ] SemEval workshop Summer 2023 
 
 All deadlines are 23:59 UTC-12 (["anywhere on Earth"](https://en.wikipedia.org/wiki/Anywhere_on_Earth)).
 
+### Related resouces
+- [Frequenty Asked Questions](https://semeval.github.io/faq.html)
+- [Paper Submission Requirements](https://semeval.github.io/paper-requirements.html)
+- [Guidelines for SemEval System Paper](https://semeval.github.io/system-paper-template.html)
 
 ## Organizers
-Contact us on:     
-   
+Contact us on:
 
 - Google group and mailing list: *causal_claims@googlegroups.com*
 - Email us: *semeval23.causalclaims@proton.me* 

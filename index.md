@@ -68,6 +68,7 @@ We will evaluate submissions on class-wise F1 scores (macro-averaged for leaderb
 
 
 
+----------
 ### Important dates for task participants
 
 - [x] Training data ready and available on our [CodaLab task page](https://codalab.lisn.upsaclay.fr/competitions/6948?secret_key=0eb18fd8-c847-4738-956c-f0f19fe3692e)

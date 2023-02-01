@@ -58,13 +58,15 @@ For this task, we are providing reddit post ids, our annotations and a script to
 ## CodaLab competition details: 
 Visit our [Codalab](https://codalab.lisn.upsaclay.fr/competitions/6948?secret_key=0eb18fd8-c847-4738-956c-f0f19fe3692e) website for detailed instruction. The main task along with evalution leatherboard will be hosted on codaLab. Each participant will need to sign in and register for the task.   
 
-### Evaluation 
+### Submission  
+We started the submission in January 2023 and participants used our  [CodaLab task page](https://codalab.lisn.upsaclay.fr/competitions/6948?secret_key=0eb18fd8-c847-4738-956c-f0f19fe3692e).
+
+
+## Evaluation 
 We will evaluate submissions on class-wise F1 scores (macro-averaged for leaderboard).
 
 
 
-### Submission  
-We plan to open the submission system in December 2022. 
 
 ### Important dates for task participants
 

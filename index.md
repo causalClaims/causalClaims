@@ -69,8 +69,8 @@ We plan to open the submission system in December 2022.
 ### Important dates for task participants
 
 - [x] Training data ready and available on our [CodaLab task page](https://codalab.lisn.upsaclay.fr/competitions/6948?secret_key=0eb18fd8-c847-4738-956c-f0f19fe3692e)
-- [ ] Evaluation start 10 January 2023 (we are deciding on a possible earlier date)
-- [ ] Evaluation end by 31 January 2023 
+- [x] Evaluation start 10 January 2023 
+- [ ] Evaluation end by 31 January 2023 -- ongoing...
 - [ ] Paper submission due February 2023 - each team will submit a [system paper](https://semeval.github.io/system-paper-template.html)
 - [ ] Notification to authors March 2023
 - [ ] Camera ready paper due April 2023

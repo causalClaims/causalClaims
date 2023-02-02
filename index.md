@@ -35,11 +35,7 @@ We will reach out to you only if **ALL** of your test file submissions failed in
 | wojciechkusa                               	|     17.44    	|     26.39    	|     22.78    	|
 | aka                                        	|     17.67    	|     21.05    	|     20.31    	|
 
-
-<br/><br/> 
-
-
------ 
+ 
 
 ## Motivation 
 Identification and automatic verification of medical claims from unstructured user-generated text data is an onerous but essential step for various decision-making processes. Some day-to-day tasks that can benefit from automatic claim identification are content moderation, insurance claim identification, and hypothesis generation from clinical notes. 
@@ -104,7 +100,7 @@ We started the submission in January 2023 and participants used our  [CodaLab ta
 
 - [x] Training data ready and available on our [CodaLab task page](https://codalab.lisn.upsaclay.fr/competitions/6948?secret_key=0eb18fd8-c847-4738-956c-f0f19fe3692e)
 - [x] Evaluation start 10 January 2023 
-- [ ] Evaluation end by 31 January 2023 -- ongoing...
+- [x] Evaluation end by 31 January 2023
 - [ ] Paper submission due February 2023 - each team will submit a [system paper](https://semeval.github.io/system-paper-template.html)
 - [ ] Notification to authors March 2023
 - [ ] Camera ready paper due April 2023

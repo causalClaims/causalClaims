@@ -4,9 +4,15 @@ title: Causal Claims
 ### Causal Claims Identification and PIO Frame Extraction  
 The 17th International Workshop on Semantic Evaluation
 
-## Evaluation 
+## Leaderboard  
+**Note on Evaluations**: We required test files for both submissions to be labelled at the token ("word") level since our annotations were effectively text spans for stage-1 and individual tokens for stage-2. For stage-1, we evaluated macro-averaged F-1 scores across five classes - `claims`, `personal experiences`, `claims based on personal experiences`, `questions`, and `other`. These classes were evaluated at the `sentence` level as opposed to **exact** spans/tokens since differences in annotated spans often depend on  differences in where annotators *(and consequently, your trained models)* decide to *mark* span boundaries, and sentences covering those spans can reasonably be inferred to belonging to a given/same class. For stage-2 i.e. PIO tagging, we evaluate at the token-level individually (effectively treating it as an entity-tagging task) for `populations`, `interventions`, and `outcome`. We provide independent metrics (F-1) across these three classes since a majority of tokens in any reddit post do not belong to either of these classes (hence, making this classification substantially more difficult). 
 
-### SubTask-1 
+We will reach out to you only if **ALL** of your test file submissions failed in their entirety (due to formatting issues or otherwise), and we were unable to fix them. So as long as at least one of your submitted test files passed formatting checks, they have been accounted for. 
+
+**Note on Test-File Names & Additional Metrics**: We received an average of 7 test submissions per participant. Most of you submitted multiple test files (CSVs) with the same name, so in case you wish to know metrics specific to a test submission (either for your writing, or otherwise), please reach to us with the date/time/name of the submission (from Codalab) and we will do our best to provide you with additional details. 
+
+
+### SubTask-1 / Stage-1
 |          UserId<br>(From Codalab)          	|   P   	|   R   	|  F-1  	|
 |:------------------------------------------:	|:-----:	|:-----:	|:-----:	|
 | robvanderg                                 	| 78.14 	| 78.65 	| 78.40 	|
@@ -19,7 +25,7 @@ The 17th International Workshop on Semantic Evaluation
 
 <br/><br/> 
 
-### SubTask-2
+### SubTask-2 / Stage-2
 |          UserId<br>(From Codalab)          	| F-1<br>(POP) 	| F-1<br>(INT) 	| F-1<br>(OUT) 	|
 |:------------------------------------------:	|:------------:	|:------------:	|:------------:	|
 | robvanderg                                 	|     40.55    	|     49.71    	|     30.08    	|
@@ -31,11 +37,7 @@ The 17th International Workshop on Semantic Evaluation
 
 
 <br/><br/> 
-**Note on Evaluations**: We required test files for both submissions to be labelled at the token ("word") level since our annotations were effectively text spans for stage-1 and individual tokens for stage-2. For stage-1, we evaluated macro-averaged F-1 scores across five classes - `claims`, `personal experiences`, `claims based on personal experiences`, `questions`, and `other`. These classes were evaluated at the `sentence` level as opposed to **exact** spans/tokens since differences in annotated spans often depend on  differences in where annotators *(and consequently, your trained models)* decide to *mark* span boundaries, and sentences covering those spans can reasonably be inferred to belonging to a given/same class. For stage-2 i.e. PIO tagging, we evaluate at the token-level individually (effectively treating it as an entity-tagging task) for `populations`, `interventions`, and `outcome`. We provide independent metrics (F-1) across these three classes since a majority of tokens in any reddit post do not belong to either of these classes (hence, making this classification substantially more difficult). 
 
-We will reach out to you only if **ALL** of your test file submissions failed in their entirety (due to formatting issues or otherwise), and we were unable to fix them. So as long as at least one of your submitted test files passed formatting checks, they have been accounted for. 
-
-**Note on Test-File Names & Additional Metrics**: We received an average of 7 test submissions per participant. Most of you submitted multiple test files (CSVs) with the same name, so in case you wish to know metrics specific to a test submission (either for your writing, or otherwise), please reach to us with the date/time/name of the submission (from Codalab) and we will do our best to provide you with additional details. 
 
 ----- 
 

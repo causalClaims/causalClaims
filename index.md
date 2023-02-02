@@ -36,7 +36,7 @@ We will reach out to you only if **ALL** of your test file submissions failed in
 | aka                                        	|     17.67    	|     21.05    	|     20.31    	|
 
 
-**Note: All participants are required to submit a [system paper](https://semeval.github.io/system-paper-template.html).
+**Note:** All participants are required to submit a [system paper](https://semeval.github.io/system-paper-template.html).
 
 ## Motivation 
 Identification and automatic verification of medical claims from unstructured user-generated text data is an onerous but essential step for various decision-making processes. Some day-to-day tasks that can benefit from automatic claim identification are content moderation, insurance claim identification, and hypothesis generation from clinical notes. 

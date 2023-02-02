@@ -23,7 +23,6 @@ We will reach out to you only if **ALL** of your test file submissions failed in
 | aka                                        	| 60.68 	| 55.71 	| 58.09 	|
 | dinosaph                                   	| 34.93 	| 31.14 	| 32.93 	|
 
-<br/><br/> 
 
 ### SubTask-2 / Stage-2
 |          UserId<br>(From Codalab)          	| F-1<br>(POP) 	| F-1<br>(INT) 	| F-1<br>(OUT) 	|
@@ -35,7 +34,7 @@ We will reach out to you only if **ALL** of your test file submissions failed in
 | wojciechkusa                               	|     17.44    	|     26.39    	|     22.78    	|
 | aka                                        	|     17.67    	|     21.05    	|     20.31    	|
 
-
+<br/><br/> 
 **Note:** All participants are required to submit a [system paper](https://semeval.github.io/system-paper-template.html).
 
 ## Motivation 

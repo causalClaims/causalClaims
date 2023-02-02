@@ -4,6 +4,40 @@ title: Causal Claims
 ### Causal Claims Identification and PIO Frame Extraction  
 The 17th International Workshop on Semantic Evaluation
 
+## Evaluation 
+
+### SubTask-1 
+|          UserId<br>(From Codalab)          	|   P   	|   R   	|  F-1  	|
+|:------------------------------------------:	|:-----:	|:-----:	|:-----:	|
+| robvanderg                                 	| 78.14 	| 78.65 	| 78.40 	|
+| yhcheng_ncu, jenhaoyang, lhlee (NCUEE-NLP) 	| 72.97 	| 67.36 	| 70.05 	|
+| gramacha                                   	| 71.16 	| 65.78 	| 68.59 	|
+| wojciechkusa                               	| 68.73 	| 62.90 	| 65.70 	|
+| anthonyhughes                              	| 70.24 	| 58.37 	| 63.76 	|
+| aka                                        	| 60.68 	| 55.71 	| 58.09 	|
+| dinosaph                                   	| 34.93 	| 31.14 	| 32.93 	|
+
+<br/><br/> 
+
+### SubTask-2
+|          UserId<br>(From Codalab)          	| F-1<br>(POP) 	| F-1<br>(INT) 	| F-1<br>(OUT) 	|
+|:------------------------------------------:	|:------------:	|:------------:	|:------------:	|
+| robvanderg                                 	|     40.55    	|     49.71    	|     30.08    	|
+| yhcheng_ncu, jenhaoyang, lhlee (NCUEE-NLP) 	|     37.78    	|     43.58    	|     30.67    	|
+| gramacha                                   	|     34.96    	|     42.16    	|     20.83    	|
+| anthonyhughes                              	|     32.22    	|     41.29    	|     23.75    	|
+| wojciechkusa                               	|     17.44    	|     26.39    	|     22.78    	|
+| aka                                        	|     17.67    	|     21.05    	|     20.31    	|
+
+
+<br/><br/> 
+**Note on Evaluations**: We required test files for both submissions to be labelled at the token ("word") level since our annotations were effectively text spans for stage-1 and individual tokens for stage-2. For stage-1, we evaluated macro-averaged F-1 scores across five classes - `claims`, `personal experiences`, `claims based on personal experiences`, `questions`, and `other`. These classes were evaluated at the `sentence` level as opposed to **exact** spans/tokens since differences in annotated spans often depend on  differences in where annotators *(and consequently, your trained models)* decide to *mark* span boundaries, and sentences covering those spans can reasonably be inferred to belonging to a given/same class. For stage-2 i.e. PIO tagging, we evaluate at the token-level individually (effectively treating it as an entity-tagging task) for `populations`, `interventions`, and `outcome`. We provide independent metrics (F-1) across these three classes since a majority of tokens in any reddit post do not belong to either of these classes (hence, making this classification substantially more difficult). 
+
+We will reach out to you only if **ALL** of your test file submissions failed in their entirety (due to formatting issues or otherwise), and we were unable to fix them. So as long as at least one of your submitted test files passed formatting checks, they have been accounted for. 
+
+**Note on Test-File Names & Additional Metrics**: We received an average of 7 test submissions per participant. Most of you submitted multiple test files (CSVs) with the same name, so in case you wish to know metrics specific to a test submission (either for your writing, or otherwise), please reach to us with the date/time/name of the submission (from Codalab) and we will do our best to provide you with additional details. 
+
+----- 
 
 ## Motivation 
 Identification and automatic verification of medical claims from unstructured user-generated text data is an onerous but essential step for various decision-making processes. Some day-to-day tasks that can benefit from automatic claim identification are content moderation, insurance claim identification, and hypothesis generation from clinical notes. 
@@ -60,11 +94,6 @@ Visit our [Codalab](https://codalab.lisn.upsaclay.fr/competitions/6948?secret_ke
 
 ### Submission  
 We started the submission in January 2023 and participants used our  [CodaLab task page](https://codalab.lisn.upsaclay.fr/competitions/6948?secret_key=0eb18fd8-c847-4738-956c-f0f19fe3692e).
-
-
-## Evaluation 
-We will evaluate submissions on class-wise F1 scores (macro-averaged for leaderboard).
-
 
 
 

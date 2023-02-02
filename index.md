@@ -114,6 +114,12 @@ All deadlines are 23:59 UTC-12 (["anywhere on Earth"](https://en.wikipedia.org/w
 - [Guidelines for SemEval System Paper](https://semeval.github.io/system-paper-template.html)
 
 ## Organizers
+- Vivek Khetan, Accenture Labs
+- Somin Wadhwa, Northeastern University 
+- Silvio Amir, Northeastern University
+- Byron C. Wallace, Northeastern University
+
+
 Contact us on:
 
 - Email us: *semeval23.causalclaims@proton.me* 

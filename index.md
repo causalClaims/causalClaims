@@ -35,7 +35,8 @@ We will reach out to you only if **ALL** of your test file submissions failed in
 | wojciechkusa                               	|     17.44    	|     26.39    	|     22.78    	|
 | aka                                        	|     17.67    	|     21.05    	|     20.31    	|
 
- 
+
+**Note: All participants are required to submit a [system paper](https://semeval.github.io/system-paper-template.html).
 
 ## Motivation 
 Identification and automatic verification of medical claims from unstructured user-generated text data is an onerous but essential step for various decision-making processes. Some day-to-day tasks that can benefit from automatic claim identification are content moderation, insurance claim identification, and hypothesis generation from clinical notes. 
@@ -116,7 +117,6 @@ All deadlines are 23:59 UTC-12 (["anywhere on Earth"](https://en.wikipedia.org/w
 ## Organizers
 Contact us on:
 
-- Google group and mailing list: *causal_claims@googlegroups.com*
 - Email us: *semeval23.causalclaims@proton.me* 
 
 

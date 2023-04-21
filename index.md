@@ -97,16 +97,30 @@ We will reach out to you only if **ALL** of your test file submissions failed in
 **Note:** All participants are required to submit a [system paper](https://semeval.github.io/system-paper-template.html).
 
 
+## Paper 
+[Paper link](coming soon)
+```
+@InProceedings{khetan-EtAl:2023:SemEval,
+  author    = {Khetan, Vivek and Wadhwa, Somin and Wallace, Byron and Amir, Silvio},
+  title     = {SemEval-2023 Task 8: Causal medical claim identification and related PIO frame extraction from social media posts},
+  booktitle      = {Proceedings of the 17th International Workshop on Semantic Evaluation},
+  month          = {July},
+  year           = {2023},
+  address        = {Toronto, Canada},
+  publisher      = {Association for Computational Linguistics},
+}
+
+````
 ----------
 ### Important dates for task participants
 
 - [x] Training data ready and available on our [CodaLab task page](https://codalab.lisn.upsaclay.fr/competitions/6948?secret_key=0eb18fd8-c847-4738-956c-f0f19fe3692e)
 - [x] Evaluation start 10 January 2023 
 - [x] Evaluation end by 31 January 2023
-- [ ] Paper submission due February 2023 - each team will submit a [system paper](https://semeval.github.io/system-paper-template.html)
-- [ ] Notification to authors March 2023
-- [ ] Camera ready paper due April 2023
-- [ ] SemEval workshop Summer 2023 
+- [x] Paper submission due February 2023 - each team will submit a [system paper](https://semeval.github.io/system-paper-template.html)
+- [x] Notification to authors March 2023
+- [ ] Camera ready paper due 24th April 2023
+- [ ] SemEval workshop Summer 2023 at ACL Toronto
 
 All deadlines are 23:59 UTC-12 (["anywhere on Earth"](https://en.wikipedia.org/wiki/Anywhere_on_Earth)).
 

@@ -98,7 +98,7 @@ We will reach out to you only if **ALL** of your test file submissions failed in
 
 
 ## Paper 
-[https://aclanthology.org/2023.semeval-1.311.pdf](Paper from prceddings)
+[Semeval-2023 Task 8 - Paper](https://aclanthology.org/2023.semeval-1.311.pdf)
 ```
 @InProceedings{khetan-EtAl:2023:SemEval,
   author    = {Khetan, Vivek and Wadhwa, Somin and Wallace, Byron and Amir, Silvio},

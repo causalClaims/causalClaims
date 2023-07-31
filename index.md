@@ -98,7 +98,7 @@ We will reach out to you only if **ALL** of your test file submissions failed in
 
 
 ## Paper 
-[Paper link](coming soon)
+[https://aclanthology.org/2023.semeval-1.311.pdf](Paper from prceddings)
 ```
 @InProceedings{khetan-EtAl:2023:SemEval,
   author    = {Khetan, Vivek and Wadhwa, Somin and Wallace, Byron and Amir, Silvio},
@@ -119,8 +119,8 @@ We will reach out to you only if **ALL** of your test file submissions failed in
 - [x] Evaluation end by 31 January 2023
 - [x] Paper submission due February 2023 - each team will submit a [system paper](https://semeval.github.io/system-paper-template.html)
 - [x] Notification to authors March 2023
-- [ ] Camera ready paper due 24th April 2023
-- [ ] SemEval workshop Summer 2023 at ACL Toronto
+- [x] Camera ready paper due 24th April 2023
+- [x] SemEval workshop Summer 2023 at ACL Toronto
 
 All deadlines are 23:59 UTC-12 (["anywhere on Earth"](https://en.wikipedia.org/wiki/Anywhere_on_Earth)).
 
